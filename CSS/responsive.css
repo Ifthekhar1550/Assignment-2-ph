@@ -1,223 +1,275 @@
 /* Responsive For Mobile */
-  @media screen and (max-width: 600px) {
-
-body{
-  max-width:auto;
-  margin: 0px auto;
-}
-        .nav-link {
-                flex-direction: column;
-                align-items: center;
-                gap: 10px;
-            }
-
-            .hamburger-menu {
-                display: flex;
-            }
-
-            .nav-link a {
-                display: none;
-            }
-
-            .nav-link a.active {
-                display: block;
-            }
-
-        .logo-title img {
-            width: 28px;
-            height: 33px;
-        }
-
-        .banner {
-            width: 335px;
-        }
-
-        .explore-title {
-            font-size: 22px;
-            padding-top: 50px;
-        }
-
-        .explore-des {
-            font-size: 14px;
-            width: 282px;
-        }
-
-
-        .explore-menu {
-            display: flex;
-            width: 287px;
-            padding: 16px;
-            align-items: center;
-            flex-direction: column;
-            gap: 16px;
-            margin-top: 10px;
-        }
-
-        .menu-items {
-            width: 255px;
-        }
-
-        .menu-items-search {
-            width: 255px;
-        }
-.popular-grid{
-    grid-template-columns: 1fr;
-    margin-top: 10px;
-}
-      
-        .popular-des {
-            width: 316px;
-        }
-
-        .popular-img img {
-            width: 310px;
-            height: 335px;
-
-        }
-
-        .popular_title {
-            font-size: 16px;
-        }
-
-        .destination {
-            grid-template-columns: 1fr;
-        }
-
-        .destination-title {
-            font-size: 20px;
-        }
-
-        .destination img {
-            width: 330px;
-            height: 176px;
-        }
-
-        .destination-des {
-            width: 300px;
-        }
-
-        .center-1 {
-            top: 24%;
-            left: 55%;
-        }
-
-        .center-2 {
-            top: 73%;
-            left: 55%;
-        }
-
-        .center-3 {
-            top: 17%;
-            left: 55%;
-        }
-
-        .center-4 {
-            top: 50%;
-            left: 55%;
-        }
-
-        .center-5 {
-            top: 84%;
-            left: 55%;
-        }
-
-        .center-6 {
-            top: 20%;
-            left: 55%;
-        }
-
-        .center-7 {
-            top: 74%;
-            left: 55%;
-        }
-
-        .choose_us {
-            flex-direction: column;
-        }
-
-        .choose-title {
-            color: #131318;
-            text-align: center;
-            font-size: 30px;
-            font-style: normal;
-            font-weight: 800;
-            line-height: normal;
-        }
-
-
-        .choose-des {
-            width: 100%;
-        }
-
-        .choose_1 {
-            width: 100%;
-        }
-
-        .choose_2 {
-            width: 100%;
-        }
-
-        .choose_3 {
-            width: 100%;
-        }
-
-        .card {
-            grid-template-columns: 1fr;
-        }
-
-       
-
-        .newsletter_section {
-            flex-direction: column;
-        }
-
-        .form_section {
-            width: 100%;
-        }
-
-        input {
-            width: 100%;
-        }
-
-        input[type="submit"] {
-            width: 100%;
-        }
-
-        .deals img {
-            width: 100%;
-            height: 100%;
-        }
-
-        .input_section p {
-            width: 100%;
-        }
-
-
-        .hr-link {
-            width: 100%;
-        }
-
-        .deals::before {
-            background-image: url(../images/discount.png);
-            position: absolute;
-            content: '';
-            right: -54px;
-            top: 60px;
-            height: 200px;
-            width: 200px;
-            background-repeat: no-repeat;
-            background-size: 73% 62%;
-        }
-
-       
-         .footer-title {
+@media screen and (max-width: 600px) {
+  body {
+    max-width: 600px;
+    margin: 0px auto;
+  }
+  .nav-link {
     flex-direction: column;
     align-items: center;
+    gap: 10px;
+  }
+
+  .hamburger-menu {
+    display: flex;
+  }
+
+  .nav-link a {
+    display: none;
+  }
+
+  .nav-link a.active {
+    display: block;
+  }
+  .logo-title h3 {
+    color: #131318;
+    font-size: 28px;
+  }
+  .logo-title img {
+    width: 28px;
+    height: 33px;
+  }
+
+  .banner {
+    border-radius: 16px;
+    background-image: linear-gradient(
+        180deg,
+        rgba(19, 19, 24, 0.8) 0%,
+        rgba(19, 19, 24, 0) 100%
+      ),
+      url("../Images/Rectangle\ 1.png");
+
+    background-repeat: no-repeat;
+    background-size: cover;
+
+    width: 100%;
+    height: 520px;
+  }
+
+  .explore-title {
+    font-size: 22px;
+    padding-top: 50px;
+  }
+
+  .explore-des {
+    font-size: 14px;
+    width: 80%;
+  }
+
+  .explore-menu {
+    display: flex;
+    width: 80%;
+    padding: 20px 14px;
+    align-items: center;
+    flex-direction: column;
+    gap: 16px;
+    margin-top: 10px;
+    margin-bottom: 50px;
+  }
+
+  .menu-items {
+    width: 95%;
+  }
+
+  .menu-items-search {
+    width: 95%;
+  }
+  .popular-grid {
+    grid-template-columns: 1fr;
+    margin-top: 10px;
+  }
+
+  .popular-des {
+    width: 100%;
+  }
+
+  .popular-img img {
+    width: 100%;
+    height: 335px;
+  }
+
+  .popular_title {
+    font-size: 16px;
+  }
+
+  .grid-box_1,
+  .grid-box_2,
+  .grid-box_3 {
+    grid-template-columns: 1fr;
+  }
+
+  .destination-title {
+    font-size: 20px;
+  }
+
+  .destination img {
+    width: 100%;
+    height: 200px;
+  }
+
+  .destination-des {
+    width: 80%;
+    margin: 20px auto;
+  }
+  .c-1{
+    position: relative;
+  }
+  .c-2{
+    position: relative;
+  }
+  .c-3{position: relative;}
+  .c-4{position: relative;}
+  .c-5{position: relative;}
+  .c-6{position: relative;}
+  .c-7{position: relative;}
+
+
+  .center-1 {
+    position: absolute;
+    top: 50%;
+  left: 50%;
+  width: 100%;
+  }
+
+  .center-2 {
+     position: absolute;
+    top: 50%;
+  left: 50%;
+  width: 100%;
+  }
+
+  .center-3 {
+     position: absolute;
+    top: 50%;
+  left: 50%;
+  width: 100%;
+  }
+
+  .center-4 {
+     position: absolute;
+    top: 50%;
+    left: 50%;
+    width: 100%;
+  
+  }
+
+  .center-5 {
+  top: 50%;
+  left: 50%;
+  width: 100%;
+  }
+
+  .center-6 {
+     position: absolute;
+    top: 50%;
+  left: 50%;
+  width: 100%;
+  }
+
+  .center-7 {
+     position: absolute;
+   top: 50%;
+  left: 50%;
+  width: 100%;
+  }
+
+  .choose_pl {
+    
+    flex-direction: column;
+  }
+
+  .choose-title {
+    color: #131318;
+    text-align: center;
+    font-size: 30px;
+    font-style: normal;
+    font-weight: 800;
+    line-height: normal;
+  }
+
+  .choose-des {
+    width: 100%;
+  }
+
+  .choose_1 {
+    width: 100%;
+  }
+
+  .choose_2 {
+    width: 100%;
+  }
+
+  .choose_3 {
+    width: 100%;
+  }
+
+  .cards-container {
+    flex-direction: column;
+    gap: 10px;
+  
+  }
+.card{
+      width: 100%;
+}
+
+  .newsletter_section {
+    flex-direction: column;
+    margin: 0;
+   
+  }
+
+  .form_section {
+    width: 100%;
+  }
+
+  input {
+    width: 85%;
+  }
+
+  input[type="submit"] {
+    width: 85%;
+  }
+  input[type="submit"]:hover {
+  
+  width: 85%;
+  
+}
+
+  .form-des {
+    width: 100%;
+    margin-top: 5px;
+  }
+
+  .hr-link {
+    width: 85%;
+  }
+  .deals {
+    position: relative;
+  }
+  .deals-1 img {
+    max-width: 100%;
+
+    height: 300px;
+    margin-bottom: 10px;
+  }
+  .deals-70 {
+    position: absolute;
+    right: 5px;
+    top: 155px;
+    width: 70%;
+    height: auto;
+  }
+  .deals-70 img {
+    width: 100%;
+    height: auto;
   }
 
   .footer-title img {
-    margin-right: 0;
-    margin-bottom: 10px;
+    margin-right: 10px;
+    margin-top: 5px;
+  }
+  .footer-title h1 {
+    font-size: 28px;
   }
 
   hr {
@@ -227,5 +279,5 @@ body{
   .icon {
     margin: 10px 0;
   }
-    }
+}
 /* Responsive For large device */

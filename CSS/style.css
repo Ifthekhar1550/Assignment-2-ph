@@ -59,7 +59,6 @@ body {
 
 .header {
   margin: 20px auto;
-
   min-height: 100px;
 }
 
@@ -97,20 +96,21 @@ body {
 }
 .nav-link a:hover {
   color: #ff5400;
-cursor: pointer;
+  cursor: pointer;
 }
 
 .hamburger-menu {
   display: none;
   flex-direction: column;
+  gap: 0px;
   cursor: pointer;
 }
 
 .hamburger-menu span {
-  width: 30px;
+  width: 20px;
   height: 3px;
   background-color: #424247;
-  margin: 6px 0;
+  margin: 2px 0;
   display: block;
 }
 
@@ -122,6 +122,7 @@ cursor: pointer;
     ),
     url("../Images/Group\ 13\ \(1\)\ \(1\).png");
   background-repeat: no-repeat;
+  background-size: cover;
 
   height: 550px;
   margin: 20px auto;
@@ -221,7 +222,7 @@ cursor: pointer;
   margin-top: 50px;
   margin-bottom: 50px;
 }
-.pobilar-grid {
+.popular-grid {
   display: grid;
   grid-column: 2;
   grid-template-columns: repeat(2, 1fr);
@@ -266,11 +267,23 @@ cursor: pointer;
   text-align: center;
   color: white;
 }
+  .c-1{
+    position: relative;
+  }
+  .c-2{
+    position: relative;
+  }
+  .c-3{position: relative;}
+  .c-4{position: relative;}
+  .c-5{position: relative;}
+  .c-6{position: relative;}
+  .c-7{position: relative;}
+
 
 .center-1 {
   position: absolute;
   top: 50%;
-  left: 25%;
+  left: 50%;
   transform: translate(-50%, -50%);
   color: #fff;
   font-size: 28px;
@@ -281,8 +294,8 @@ cursor: pointer;
 
 .center-2 {
   position: absolute;
-  top: 50%;
-  left: 79%;
+ top: 50%;
+  left: 50%;
   transform: translate(-50%, -50%);
   color: #fff;
   font-size: 28px;
@@ -293,8 +306,8 @@ cursor: pointer;
 
 .center-3 {
   position: absolute;
-  top: 50%;
-  left: 17%;
+ top: 50%;
+  left: 50%;
   transform: translate(-50%, -50%);
   color: #fff;
   font-size: 28px;
@@ -306,7 +319,7 @@ cursor: pointer;
 .center-4 {
   position: absolute;
   top: 50%;
-  left: 55%;
+  left: 50%;
   transform: translate(-50%, -50%);
   color: #fff;
   font-size: 28px;
@@ -317,8 +330,8 @@ cursor: pointer;
 
 .center-5 {
   position: absolute;
-  top: 48%;
-  left: 91%;
+ top: 50%;
+  left: 50%;
   transform: translate(-50%, -50%);
   color: #fff;
   font-size: 28px;
@@ -329,8 +342,8 @@ cursor: pointer;
 
 .center-6 {
   position: absolute;
-  top: 50%;
-  left: 20%;
+ top: 50%;
+  left: 50%;
   transform: translate(-50%, -50%);
   color: #fff;
   font-size: 28px;
@@ -342,7 +355,7 @@ cursor: pointer;
 .center-7 {
   position: absolute;
   top: 50%;
-  left: 75%;
+  left: 50%;
   transform: translate(-50%, -50%);
   color: #fff;
   font-size: 28px;
@@ -516,10 +529,10 @@ cursor: pointer;
   color: #5a5a5d;
 
   font-family: Mulish;
-  font-size: 16px;
+  font-size: 14px;
   font-style: normal;
   font-weight: 400;
-  line-height: 26px;
+  line-height: 24px;
 }
 .hr-link {
   margin-left: 20px;
@@ -537,6 +550,15 @@ input {
   padding: 10px;
 }
 
+input::placeholder{
+  color: rgba(19, 19, 24, 0.30);
+
+font-family: Mulish;
+font-size: 16px;
+font-style: normal;
+font-weight: 400;
+line-height: normal;
+}
 input[type="submit"] {
   margin-left: 20px;
   border-radius: 6px;
@@ -544,38 +566,37 @@ input[type="submit"] {
   width: 393px;
   height: 45px;
   color: #fff;
-  border: none;
-  font-family: "Inter", serif;
-  font-size: 15px;
+
+  text-align: center;
+  font-family: Mulish;
+  font-size: 20px;
   font-style: normal;
-  font-weight: 600;
+  font-weight: 800;
   line-height: normal;
-  text-transform: capitalize;
 }
 input[type="submit"]:hover {
   border: 1px solid #ff5400;
   border-radius: 6px;
-  background:#fff; 
+  background: #fff;
   width: 393px;
   height: 45px;
   color: #ff5400;
- cursor: pointer;
+  cursor: pointer;
 }
 .deals {
   position: relative;
 }
-
-.deals-70::before {
-  background-image: url("../images/Group\ 40069.png");
-  position: absolute;
-  content: "";
-  right: -7px;
-  top: 201px;
-  height: 346px;
-  width: 350px;
-  background-repeat: no-repeat;
+.deals-1 img {
+  width: 672px;
+  height: 422px;
 }
 
+.deals-70 img {
+  position: absolute;
+  content: "";
+  right: -4px;
+  top: 48%;
+}
 
 .cards-container {
   display: flex;
