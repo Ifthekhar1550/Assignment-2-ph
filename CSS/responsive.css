@@ -1,2 +1,231 @@
 /* Responsive For Mobile */
+  @media screen and (max-width: 600px) {
+
+body{
+  max-width:auto;
+  margin: 0px auto;
+}
+        .nav-link {
+                flex-direction: column;
+                align-items: center;
+                gap: 10px;
+            }
+
+            .hamburger-menu {
+                display: flex;
+            }
+
+            .nav-link a {
+                display: none;
+            }
+
+            .nav-link a.active {
+                display: block;
+            }
+
+        .logo-title img {
+            width: 28px;
+            height: 33px;
+        }
+
+        .banner {
+            width: 335px;
+        }
+
+        .explore-title {
+            font-size: 22px;
+            padding-top: 50px;
+        }
+
+        .explore-des {
+            font-size: 14px;
+            width: 282px;
+        }
+
+
+        .explore-menu {
+            display: flex;
+            width: 287px;
+            padding: 16px;
+            align-items: center;
+            flex-direction: column;
+            gap: 16px;
+            margin-top: 10px;
+        }
+
+        .menu-items {
+            width: 255px;
+        }
+
+        .menu-items-search {
+            width: 255px;
+        }
+.popular-grid{
+    grid-template-columns: 1fr;
+    margin-top: 10px;
+}
+      
+        .popular-des {
+            width: 316px;
+        }
+
+        .popular-img img {
+            width: 310px;
+            height: 335px;
+
+        }
+
+        .popular_title {
+            font-size: 16px;
+        }
+
+        .destination {
+            grid-template-columns: 1fr;
+        }
+
+        .destination-title {
+            font-size: 20px;
+        }
+
+        .destination img {
+            width: 330px;
+            height: 176px;
+        }
+
+        .destination-des {
+            width: 300px;
+        }
+
+        .center-1 {
+            top: 24%;
+            left: 55%;
+        }
+
+        .center-2 {
+            top: 73%;
+            left: 55%;
+        }
+
+        .center-3 {
+            top: 17%;
+            left: 55%;
+        }
+
+        .center-4 {
+            top: 50%;
+            left: 55%;
+        }
+
+        .center-5 {
+            top: 84%;
+            left: 55%;
+        }
+
+        .center-6 {
+            top: 20%;
+            left: 55%;
+        }
+
+        .center-7 {
+            top: 74%;
+            left: 55%;
+        }
+
+        .choose_us {
+            flex-direction: column;
+        }
+
+        .choose-title {
+            color: #131318;
+            text-align: center;
+            font-size: 30px;
+            font-style: normal;
+            font-weight: 800;
+            line-height: normal;
+        }
+
+
+        .choose-des {
+            width: 100%;
+        }
+
+        .choose_1 {
+            width: 100%;
+        }
+
+        .choose_2 {
+            width: 100%;
+        }
+
+        .choose_3 {
+            width: 100%;
+        }
+
+        .card {
+            grid-template-columns: 1fr;
+        }
+
+       
+
+        .newsletter_section {
+            flex-direction: column;
+        }
+
+        .form_section {
+            width: 100%;
+        }
+
+        input {
+            width: 100%;
+        }
+
+        input[type="submit"] {
+            width: 100%;
+        }
+
+        .deals img {
+            width: 100%;
+            height: 100%;
+        }
+
+        .input_section p {
+            width: 100%;
+        }
+
+
+        .hr-link {
+            width: 100%;
+        }
+
+        .deals::before {
+            background-image: url(../images/discount.png);
+            position: absolute;
+            content: '';
+            right: -54px;
+            top: 60px;
+            height: 200px;
+            width: 200px;
+            background-repeat: no-repeat;
+            background-size: 73% 62%;
+        }
+
+       
+         .footer-title {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .footer-title img {
+    margin-right: 0;
+    margin-bottom: 10px;
+  }
+
+  hr {
+    width: 100%;
+  }
+
+  .icon {
+    margin: 10px 0;
+  }
+    }
 /* Responsive For large device */
